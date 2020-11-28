@@ -1,3 +1,11 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .bg-black {
-    background-color: $eerie-black;
+  background-color: $eerie-black;
+}
+
+.bg-gray {
+  background-color: $light-gray;
 }

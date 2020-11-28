@@ -1,0 +1,14 @@
+.navigation {
+    padding: 50px 0;
+}
+
+.nav-link {
+    font-size: $small;
+    color: $platinum;
+    &.active {
+        color: $ruddy-pink;
+    }
+    &:hover {
+        color: $ruddy-pink;
+    }
+}

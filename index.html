@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BarberShop</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
     <link
         href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,900&family=Roboto:wght@300;400&display=swap"
         rel="stylesheet">
@@ -13,7 +14,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+    <nav class="navbar navbar-expand-lg bg-black">
         <div class="container">
             <a class="navbar-brand" href="#"><img src="assets/images/logo.png" alt="Logo" height="25px"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
@@ -22,9 +23,9 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ml-auto">
-                    <a class="nav-link active" href="#">Nosotros <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#">Nosotros <span class="sr-only">(current)</span></a>
                     <a class="nav-link" href="#">Trabajos</a>
-                    <a class="nav-link" href="#">Blog</a>
+                    <a class="nav-link active" href="#">Blog</a>
                     <a class="nav-link" href="#">Horas</a>
                     <a class="nav-link" href="#">Contacto</a>
                 </div>
@@ -33,12 +34,13 @@
     </nav>
 
     <header class="header">
-        <div class="header__container container">
+        <div class="container">
             <h1 class="header__title">5 formas de cuidar tu corte de cabello</h1>
+            <a class="header__link" href="#article"><i class="fas fa-chevron-down fa-2x"></i></a>
         </div>
     </header>
 
-    <main class="main">
+    <main id="article" class="main">
         <div class="container">
             <p class="main__date">12 de abril de 2018</p>
             <p class="main__text">
@@ -69,7 +71,8 @@
                 in eros nulla. Curabitur convallis ornare dignissim.
             </p>
             <p class="main__text">
-                <a class="link" href="#">Mauris et sapien libero.</a> Quisque quis odio varius, luctus magna ut, sollicitudin mauris. Nulla
+                <a class="link" href="#">Mauris et sapien libero.</a> Quisque quis odio varius, luctus magna ut,
+                sollicitudin mauris. Nulla
                 vulputate, leo sit amet auctor bibendum, lectus mauris consectetur sapien, quis ullamcorper felis nulla
                 non nibh. Integer semper pretium dolor, sit amet malesuada eros accumsan tempor. Proin sodales, est id
                 mattis pellentesque, neque nunc cursus nulla, quis aliquet elit magna vitae mi. Donec a facilisis nisi,
@@ -102,33 +105,31 @@
                 </div>
                 <div class="col-md-7">
                     <p class="author__description">
-                        Nam leo sapien, gravida quis dapibus id, convallis a purus. Phasellus mollis lectus convallis, tincidunt
-                    justo quis, hendrerit turpis. Vestibulum blandit blandit molestie. Vestibulum id suscipit orci, at
-                    elementum elit.
+                        Nam leo sapien, gravida quis dapibus id, convallis a purus. Phasellus mollis lectus convallis,
+                        tincidunt
+                        justo quis, hendrerit turpis. Vestibulum blandit blandit molestie. Vestibulum id suscipit orci,
+                        at
+                        elementum elit.
                     </p>
                 </div>
             </div>
         </div>
     </section>
 
-
-    <section navigation>
+    <section class="navigation bg-gray">
         <div class="container">
-
-            <nav aria-label="Page navigation example">
-                
-                <ul class="pagination">
+            <nav>
+                <ul class="pagination justify-content-center">
                     <li class="page-item"><a class="page-link prev" href="#">Previous</a></li>
                     <li class="page-item"><a class="page-link" href="#">1</a></li>
-                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item active"><a class="page-link" href="#">2</a></li>
                     <li class="page-item"><a class="page-link" href="#">3</a></li>
                     <li class="page-item"><a class="page-link next" href="#">Next</a></li>
                 </ul>
             </nav>
         </div>
     </section>
-        <a href="#" class="link">Link</a>
+    <footer class="bg-black text-center">
+        <img src="assets/images/logo.png" alt="Logo" height="50px">
+    </footer>
 </body>
-<section footer>
-    <div class="footer>"
-</section>

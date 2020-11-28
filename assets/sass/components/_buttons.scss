@@ -1,0 +1,46 @@
+.button-gray {
+    border-radius: 100px;
+    font-size: medium;
+    font-size: small;
+    background-color: $nickel;
+    color: $white;
+    font-weight: $fs-light;
+    padding: 10px 16px;
+    font-family: $roboto;
+    &:hover {
+        background-color: $light-gray;
+        color: $white;
+    }
+    &:focus {
+        color: $white;
+        box-shadow: 0 0 0 0.2rem rgba(121, 120, 120, 0.25);
+    }
+}
+
+.link {
+    color: $spanish-pink;
+    font-family: $roboto;
+    &:hover {
+        color: $raisin-black;
+        text-decoration: none;
+    }
+    &:active {
+        color: $platinum;
+    }
+}
+
+.page-item:first-child .page-link {
+    border-top-left-radius: 5rem;
+    border-bottom-left-radius: 5rem;
+}
+
+.page-link {
+    color: $eerie-black;
+    font-family: $roboto;
+    font-size: $medium;
+}
+
+.page-item:last-child .page-link {
+    border-top-right-radius: 5rem;
+    border-bottom-right-radius: 5rem;
+}

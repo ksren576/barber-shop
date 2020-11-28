@@ -1,0 +1,23 @@
+
+.main__text, .author__description {
+    line-height: 2.5rem;
+    font-size: $small;
+    color: $nickel
+}
+
+.main__date {
+    font-family: $playfair-display;
+    color: $nickel;
+    margin: 3rem 0;
+}
+
+.main__buttons {
+    margin: 4rem 0;
+}
+
+.author__name {
+    font-family: $playfair-display;
+    font-weight: $fs-black;
+    font-size: $x-large;
+    font-style: italic;
+}
